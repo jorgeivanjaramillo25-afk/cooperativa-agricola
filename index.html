@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cooperativa Agrícola - Productos frescos directo del campo. Café, papa, maíz y más.">
+    <meta name="keywords" content="cooperativa agrícola, productos del campo, café, papa, maíz, agricultura">
+    <title>Cooperativa Agrícola - Productos Frescos del Campo</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#hero">
+                <i class="bi bi-flower2 text-success fs-3 me-2"></i>
+                <span class="fw-bold text-success">Cooperativa Agrícola</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cultivos">Cultivos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#como-funciona">Cómo Funciona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7 text-white hero-content">
+                    <h1 class="display-3 fw-bold mb-4 animate-fade-in">Productos Frescos Directo del Campo</h1>
+                    <p class="lead mb-4 animate-fade-in-delay">Conectamos a productores locales con consumidores que valoran la calidad y frescura de los productos agrícolas.</p>
+                    <div class="d-flex gap-3 flex-wrap animate-fade-in-delay-2">
+                        <a href="#cultivos" class="btn btn-success btn-lg px-4">
+                            <i class="bi bi-basket me-2"></i>Ver Productos
+                        </a>
+                        <a href="#contacto" class="btn btn-outline-light btn-lg px-4">
+                            <i class="bi bi-whatsapp me-2"></i>Contáctanos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#nosotros" class="text-white">
+                <i class="bi bi-chevron-down animate-bounce"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Nosotros Section -->
+    <section id="nosotros" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold mb-3">¿Quiénes Somos?</h2>
+                    <div class="title-divider mx-auto mb-4"></div>
+                    <p class="lead text-muted">Somos una cooperativa agrícola comprometida con el desarrollo sostenible y la calidad de nuestros productos.</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-success bg-opacity-10 rounded-circle mx-auto mb-3">
+                                <i class="bi bi-people-fill text-success fs-1"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Comunidad Unida</h4>
+                            <p class="text-muted">Más de 50 productores locales trabajando juntos por un futuro mejor.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-success bg-opacity-10 rounded-circle mx-auto mb-3">
+                                <i class="bi bi-leaf-fill text-success fs-1"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">100% Orgánico</h4>
+                            <p class="text-muted">Cultivos naturales sin químicos dañinos, respetando el medio ambiente.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm hover-card">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box bg-success bg-opacity-10 rounded-circle mx-auto mb-3">
+                                <i class="bi bi-award-fill text-success fs-1"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Calidad Garantizada</h4>
+                            <p class="text-muted">Productos seleccionados con los más altos estándares de calidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cultivos Section -->
+    <section id="cultivos" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold mb-3">Nuestros Cultivos</h2>
+                    <div class="title-divider mx-auto mb-4"></div>
+                    <p class="lead text-muted">Productos frescos y de alta calidad cultivados con dedicación y experiencia.</p>
+                </div>
+            </div>
+
+            <!-- Café -->
+            <div class="cultivo-section mb-5">
+                <div class="row align-items-center mb-4">
+                    <div class="col-md-8">
+                        <h3 class="fw-bold text-success mb-2">
+                            <i class="bi bi-cup-hot-fill me-2"></i>Café Premium
+                        </h3>
+                        <p class="text-muted">Café de altura cultivado en las mejores tierras de la región, con notas dulces y afrutadas.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card proveedor-card h-100 border-0 shadow-sm">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400" class="card-img-top" alt="Café Don Pedro">
+                                <div class="card-badge">
+                                    <span class="badge bg-success">Café Premium</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Finca Don Pedro</h5>
+                                <p class="card-text text-muted small">
+                                    <i class="bi bi-geo-alt-fill text-success me-1"></i>Zona Cafetera Central
+                                </p>
+                                <p class="card-text">Café arábica de altura, procesamiento lavado. Notas de chocolate y caramelo.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-success fw-bold">Disponible</span>
+                                    <button class="btn btn-success btn-whatsapp" 
+                                            data-proveedor="Don Pedro" 
+                                            data-producto="Café Premium"
+                                            data-numero="573042663220">
+                                        <i class="bi bi-whatsapp me-2"></i>Consultar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card proveedor-card h-100 border-0 shadow-sm">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400" class="card-img-top" alt="Café María">
+                                <div class="card-badge">
+                                    <span class="badge bg-success">Café Premium</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Finca Santa María</h5>
+                                <p class="card-text text-muted small">
+                                    <i class="bi bi-geo-alt-fill text-success me-1"></i>Sierra Nevada
+                                </p>
+                                <p class="card-text">Café especial de alta montaña, sabor suave y aromático con toques frutales.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-success fw-bold">Disponible</span>
+                                    <button class="btn btn-success btn-whatsapp" 
+                                            data-proveedor="Santa María" 
+                                            data-producto="Café Premium"
+                                            data-numero="573042663220">
+                                        <i class="bi bi-whatsapp me-2"></i>Consultar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card proveedor-card h-100 border-0 shadow-sm">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400" class="card-img-top" alt="Café El Bosque">
+                                <div class="card-badge">
+                                    <span class="badge bg-success">Café Premium</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Finca El Bosque</h5>
+                                <p class="card-text text-muted small">
+                                    <i class="bi bi-geo-alt-fill text-success me-1"></i>Montañas del Sur
+                                </p>
+                                <p class="card-text">Café orgánico certificado, cultivo sostenible bajo sombra de árboles nativos.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-success fw-bold">Disponible</span>
+                                    <button class="btn btn-success btn-whatsapp" 
+                                            data-proveedor="El Bosque" 
+                                            data-producto="Café Premium"
+                                            data-numero="573042663220">
+                                        <i class="bi bi-whatsapp me-2"></i>Consultar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Papa -->
+            <div class="cultivo-section mb-5">
+                <div class="row align-items-center mb-4">
+                    <div class="col-md-8">
+                        <h3 class="fw-bold text-success mb-2">
+                            <i class="bi bi-circle-fill me-2"></i>Papa de Primera
+                        </h3>
+                        <p class="text-muted">Papa fresca de excelente calidad, ideal para todo tipo de preparaciones culinarias.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card proveedor-card h-100 border-0 shadow-sm">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=400" class="card-img-top" alt="Papa">
+                                <div class="card-badge">
+                                    <span class="badge bg-warning text-dark">Papa</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Cultivos La Esperanza</h5>
+                                <p class="card-text text-muted small">
+                                    <i class="bi bi-geo-alt-fill text-success me-1"></i>Altiplano Norte
+                                </p>
+                                <p class="card-text">Papa criolla y pastusa de primera calidad, cosecha semanal garantizada.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-success fw-bold">Disponible</span>
+                                    <button class="btn btn-success btn-whatsapp" 
+                                            data-proveedor="La Esperanza" 
+                                            data-producto="Papa de Primera"
+                                            data-numero="573042663220">
+                                        <i class="bi bi-whatsapp me-2"></i>Consultar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card proveedor-card h-100 border-0 shadow-sm">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1596097635551-6f50d5e85429?w=400" class="card-img-top" alt="Papa Variedad">
+                                <div class="card-badge">
+                                    <span class="badge bg-warning text-dark">Papa</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Agrícola Los Andes</h5>
+                                <p class="card-text text-muted small">
+                                    <i class="bi bi-geo-alt-fill text-success me-1"></i>Páramo Alto
+                                </p>
+                                <p class="card-text">Papa superior, pastusa y sabanera. Producción orgánica certificada.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-success fw-bold">Disponible</span>
+                                    <button class="btn btn-success btn-whatsapp" 
+                                            data-proveedor="Los Andes" 
+                                            data-producto="Papa de Primera"
+                                            data-numero="573042663220">
+                                        <i class="bi bi-whatsapp me-2"></i>Consultar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Maíz -->
+            <div class="cultivo-section">
+                <div class="row align-items-center mb-4">
+                    <div class="col-md-8">
+                        <h3 class="fw-bold text-success mb-2">
+                            <i class="bi bi-flower3 me-2"></i>Maíz Tradicional
+                        </h3>
+                        <p class="text-muted">Maíz amarillo y blanco de la mejor calidad, cultivado con métodos tradicionales.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card proveedor-card h-100 border-0 shadow-sm">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400" class="card-img-top" alt="Maíz">
+                                <div class="card-badge">
+                                    <span class="badge bg-info">Maíz</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Granos del Valle</h5>
+                                <p class="card-text text-muted small">
+                                    <i class="bi bi-geo-alt-fill text-success me-1"></i>Valle Fértil
+                                </p>
+                                <p class="card-text">Maíz amarillo y blanco, grano grande y de excelente sabor para arepas y mazamorra.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-success fw-bold">Disponible</span>
+                                    <button class="btn btn-success btn-whatsapp" 
+                                            data-proveedor="Granos del Valle" 
+                                            data-producto="Maíz Tradicional"
+                                            data-numero="573042663220">
+                                        <i class="bi bi-whatsapp me-2"></i>Consultar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card proveedor-card h-100 border-0 shadow-sm">
+                            <div class="card-img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1605295199620-e190a2f2b7c8?w=400" class="card-img-top" alt="Maíz Orgánico">
+                                <div class="card-badge">
+                                    <span class="badge bg-info">Maíz</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Semillas Ancestrales</h5>
+                                <p class="card-text text-muted small">
+                                    <i class="bi bi-geo-alt-fill text-success me-1"></i>Tierra Fértil
+                                </p>
+                                <p class="card-text">Maíz criollo de semillas ancestrales, preservando tradiciones agrícolas milenarias.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-success fw-bold">Disponible</span>
+                                    <button class="btn btn-success btn-whatsapp" 
+                                            data-proveedor="Semillas Ancestrales" 
+                                            data-producto="Maíz Tradicional"
+                                            data-numero="573042663220">
+                                        <i class="bi bi-whatsapp me-2"></i>Consultar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Funciona Section -->
+    <section id="como-funciona" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold mb-3">¿Cómo Funciona?</h2>
+                    <div class="title-divider mx-auto mb-4"></div>
+                    <p class="lead text-muted">Conectar con nuestros productores es muy sencillo.</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="step-number bg-success text-white rounded-circle mx-auto mb-3">
+                            <span class="fw-bold">1</span>
+                        </div>
+                        <h5 class="fw-bold mb-3">Explora los Cultivos</h5>
+                        <p class="text-muted">Navega por nuestra sección de productos y conoce nuestros cultivos disponibles.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="step-number bg-success text-white rounded-circle mx-auto mb-3">
+                            <span class="fw-bold">2</span>
+                        </div>
+                        <h5 class="fw-bold mb-3">Elige tu Proveedor</h5>
+                        <p class="text-muted">Selecciona el productor que más te interese según ubicación y especialidad.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="step-number bg-success text-white rounded-circle mx-auto mb-3">
+                            <span class="fw-bold">3</span>
+                        </div>
+                        <h5 class="fw-bold mb-3">Contacta Directo</h5>
+                        <p class="text-muted">Haz clic en "Consultar" para abrir WhatsApp y hablar directamente con el productor.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <div class="step-number bg-success text-white rounded-circle mx-auto mb-3">
+                            <span class="fw-bold">4</span>
+                        </div>
+                        <h5 class="fw-bold mb-3">Recibe tu Producto</h5>
+                        <p class="text-muted">Coordina la compra y entrega directamente con el productor a tu conveniencia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold mb-3">Contáctanos</h2>
+                    <div class="title-divider mx-auto mb-4"></div>
+                    <p class="lead text-muted">¿Tienes preguntas? Estamos aquí para ayudarte.</p>
+                </div>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4 hover-card">
+                        <div class="icon-box bg-success bg-opacity-10 rounded-circle mx-auto mb-3">
+                            <i class="bi bi-whatsapp text-success fs-1"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">WhatsApp</h5>
+                        <p class="text-muted mb-3">Contáctanos directamente</p>
+                        <a href="https://wa.me/573042663220?text=Hola,%20me%20interesa%20información%20sobre%20la%20cooperativa" 
+                           class="btn btn-success" target="_blank">
+                            <i class="bi bi-whatsapp me-2"></i>Enviar Mensaje
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4 hover-card">
+                        <div class="icon-box bg-success bg-opacity-10 rounded-circle mx-auto mb-3">
+                            <i class="bi bi-envelope-fill text-success fs-1"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Email</h5>
+                        <p class="text-muted mb-3">Escríbenos tus consultas</p>
+                        <a href="mailto:info@cooperativagricola.com" class="btn btn-outline-success">
+                            <i class="bi bi-envelope me-2"></i>Enviar Email
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4 hover-card">
+                        <div class="icon-box bg-success bg-opacity-10 rounded-circle mx-auto mb-3">
+                            <i class="bi bi-geo-alt-fill text-success fs-1"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Ubicación</h5>
+                        <p class="text-muted mb-3">Visítanos en persona</p>
+                        <address class="text-muted small mb-0">
+                            Calle Principal #123<br>
+                            Municipio, Departamento<br>
+                            Colombia
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4">
+                        <i class="bi bi-flower2 me-2"></i>Cooperativa Agrícola
+                    </h5>
+                    <p class="text-white-50">Conectando el campo con tu hogar. Productos frescos, naturales y de la más alta calidad.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#nosotros" class="text-white-50 text-decoration-none">Nosotros</a></li>
+                        <li class="mb-2"><a href="#cultivos" class="text-white-50 text-decoration-none">Cultivos</a></li>
+                        <li class="mb-2"><a href="#como-funciona" class="text-white-50 text-decoration-none">Cómo Funciona</a></li>
+                        <li class="mb-2"><a href="#contacto" class="text-white-50 text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Productos</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><span class="text-white-50">Café Premium</span></li>
+                        <li class="mb-2"><span class="text-white-50">Papa de Primera</span></li>
+                        <li class="mb-2"><span class="text-white-50">Maíz Tradicional</span></li>
+                        <li class="mb-2"><span class="text-white-50">Y más...</span></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Contacto</h6>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2">
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            Municipio, Colombia
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-telephone-fill me-2"></i>
+                            +57 300 123 4567
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-envelope-fill me-2"></i>
+                            info@cooperativagricola.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4 bg-white opacity-25">
+            
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-white-50 mb-0">&copy; 2025 Cooperativa Agrícola. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="text-white-50 mb-0">Hecho con <i class="bi bi-heart-fill text-danger"></i> en Colombia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/573042663220?text=Hola,%20necesito%20informaci%C3%B3n%20sobre%20la%20cooperativa" 
+       class="whatsapp-float" 
+       target="_blank"
+       title="Contáctanos por WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Botón de scroll to top -->
+    <button id="scrollTop" class="scroll-top-btn">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Chatbot (simulado) -->
+    <div id="chatbot" class="chatbot-container">
+        <div class="chatbot-header" id="chatbotHeader">
+            <i class="bi bi-robot me-2"></i>
+            <span>Asistente Virtual</span>
+            <button class="btn-close btn-close-white ms-auto" id="closeChatbot"></button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chat-message bot-message">
+                <p>¡Hola! 👋 Soy el asistente virtual de la Cooperativa Agrícola.</p>
+                <p>¿En qué puedo ayudarte?</p>
+            </div>
+        </div>
+        <div class="chatbot-footer">
+            <div class="chat-options">
+                <button class="btn btn-sm btn-outline-success mb-2 chat-option" data-response="productos">
+                    Ver productos disponibles
+                </button>
+                <button class="btn btn-sm btn-outline-success mb-2 chat-option" data-response="contacto">
+                    Hablar con un productor
+                </button>
+                <button class="btn btn-sm btn-outline-success mb-2 chat-option" data-response="info">
+                    Más información
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <button id="chatbotToggle" class="chatbot-toggle">
+        <i class="bi bi-chat-dots-fill"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

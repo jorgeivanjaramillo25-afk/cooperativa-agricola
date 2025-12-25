@@ -1,0 +1,25 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencias
+node_modules/
+.npm
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vercel
+.vercel
+
+# Temporal
+tmp/
+temp/
